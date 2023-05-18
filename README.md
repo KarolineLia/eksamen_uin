@@ -7,3 +7,5 @@ Jeg gikk i hovedsak for vanskelighetsgrad C med bruk av api'et, men er ganske si
 pga noen problemer under minstekravet og karakter D.
 
 Jeg er den eneste personen på denne gruppa og aliaset mitt er KarolineLia (Karoline Marie Lia).
+
+Hvis det skulle skje noe med api nøkkelen (ikke at det burde det) så er den 468792da558d44a6b2d4c9767b13cb25
