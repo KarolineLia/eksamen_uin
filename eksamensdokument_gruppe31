@@ -1,10 +1,41 @@
 Jeg gikk for vanskelighetsgrad C. Jeg har dessverre brukt litt for lite tid på denne eksamen enn jeg burde så jeg føler jeg gjør mye
 unødvendig i koden. Ting som jeg vet burde bli ryddet opp i og som kan være ryddigere, men som jeg dessverre ikke rekker å fikse før levering.
+Jeg gikk hovedsakelig for vanskelighetsgrad C fordi jeg foretrekker å jobbe med API'er.
 
 Github-alias KarolineLia = Karoline Marie Lia
 
-Uklarheter ved oppgaveteksten:
+Utfordringer med oppgaven:
 Det er kun ett punkt jeg føler er litt uklart og det er hvordan man kobler opp linkene til buy knappen når man bruker api'et.
 Jeg har gått gjennom dokumentet og ser at man skal kunne lage en liste med linker til butikker som selger spillene. Jeg klarte å finne
 frem linkene, men hadde for dårlig tid og fikk da ikke muligheten til å bruke de. Jeg valgte derfor å linke til rawg api'et sine
 games sider som en erstatning for dette. Selv om jeg vet at dette blir feil så var det eneste måte jeg rakk å gjøre dette på.
+Man linker med dette teknisk sett til en side som kan føre deg videre til eks. steam så mener det er tildels innenfor, men forstå
+også hvis dette faller veldig på utsiden av det oppgaven krevde. Problemet mitt med linke var mindre å finne de, men heller
+hvordan jeg skulle sende riktig proper til riktig komponenter for å kunne .map'e de og finne de frem. På grunn av dette valgte
+jeg å fjerne koden jeg skrev med linkene (starten i hvertfall), slik at koden ikke skulle bli rotete. Oppsettet av det derimot var
+veldig likt som ved newgames og genre arrayene. Forskjellen var at jeg la på /{game_pk}/store istedenfor genre og release date. 
+For {game_pk} kunne jeg bruke både id og slug for å få frem en array med hvilken butikk det var, samt url.
+
+Hele denne eksamen er litt patchwork fra min side, noe som er veldig kjedelig siden det er en morsom oppgave og jeg vet jeg kan
+mye bedre enn jeg presterer her. Det er derimot bare sånn det må bli da tiden løp fra meg pga andre eksamener.
+
+Kilder:
+Jeg har kommentert alle kodebiter der jeg bruker kildene, slik at det er enklere å se hva jeg har tatt og fra hvor.
+
+https://www.youtube.com/watch?v=SLfhMt5OUPI - brukte jeg for dynamisk routing i navbaren
+https://www.youtube.com/watch?v=PGCMdiXRI6Y - for å slice info fra arrayene slik at det kun kom opp 3 og 4 spill.
+https://www.w3schools.com/js/js_window_location.asp - brukte jeg når jeg skulle linke til rawg sin games side og velge et spesifikt spill
+https://stackoverflow.com/questions/16679146/force-footer-on-bottom-on-pages-with-little-content - for oppsett av footer
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow - For box-shadow
+https://api.rawg.io/docs/ - For å hente ut nødvendig informasjon fra API'et
+https://webtricks.blog/start-et-prosjekt-med-react-sanity-og-sass-fra-scratch/ - For creact react og sass kompilering
+https://sass-lang.com/guide - For hvordan man skriver sass
+https://react.dev/learn/passing-props-to-a-component - Bare som en generell guide for deling av props
+https://pypi.org/project/rawg/ - For å bedre forstå meg på Rawg api'et
+https://codingbeautydev.com/blog/react-button-link/ - for dynamiske linker rundt button
+https://www.pluralsight.com/guides/how-to-use-the-map()-function-to-export-javascript-in-react - Som en oppfriskning av bruken av map (dette
+var mer for når jeg jobbet med linkene til butikken, men siden den delen er borte så er også kommentaren rundt kodebiten borte)
+
+Jeg har også brukt arbeidskrav 3 og 4 for en del av oppsettet, spesielt 4 for bruken av API.
+Samtidig har jeg brukt https://github.com/ackarlse/gitcollab for useEffect og useState samt API kall.
+For sass variablene og oppsettet av appen brukte jeg https://github.com/toremake/UIN_coursefiles_2023/tree/main/eksamen
