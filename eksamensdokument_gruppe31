@@ -1,0 +1,10 @@
+Jeg gikk for vanskelighetsgrad C. Jeg har dessverre brukt litt for lite tid på denne eksamen enn jeg burde så jeg føler jeg gjør mye
+unødvendig i koden. Ting som jeg vet burde bli ryddet opp i og som kan være ryddigere, men som jeg dessverre ikke rekker å fikse før levering.
+
+Github-alias KarolineLia = Karoline Marie Lia
+
+Uklarheter ved oppgaveteksten:
+Det er kun ett punkt jeg føler er litt uklart og det er hvordan man kobler opp linkene til buy knappen når man bruker api'et.
+Jeg har gått gjennom dokumentet og ser at man skal kunne lage en liste med linker til butikker som selger spillene. Jeg klarte å finne
+frem linkene, men hadde for dårlig tid og fikk da ikke muligheten til å bruke de. Jeg valgte derfor å linke til rawg api'et sine
+games sider som en erstatning for dette. Selv om jeg vet at dette blir feil så var det eneste måte jeg rakk å gjøre dette på.
