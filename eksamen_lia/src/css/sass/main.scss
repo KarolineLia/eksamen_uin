@@ -1,0 +1,62 @@
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;700&family=Mulish:wght@400;700&display=swap');
+//Font variables
+$headerfont:    'Kanit', sans-serif;
+$textfont:      'Mulish', sans-serif;
+//COLORS
+$red:           #C00100;
+$orange:        #FFA100;
+$black:         #000000;
+$white:         #ffffff;
+$light-grey:    #f3f3f3;
+$dark-grey:     #232323;
+$green:         #6ea100;
+
+//SIZES
+$maxwidth:          1200px;
+$maxsentencelength: 60rem;
+$gaps:              1.5rem;
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
+
+.navbar {
+    background-color: $black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $white;
+    gap: $gaps;
+
+    h1 {
+        font-family: $headerfont;
+        font-size: 2rem;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        gap: $gaps;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+   /*Her brukte jeg https://www.youtube.com/watch?v=SLfhMt5OUPI for hvordan jeg kan
+    sette opp en navbar. Dette spriker ikke veldig fra pensum, men tenkte det var greit
+    å inkludere siden jeg brukte videoen når jeg satt den opp.*/ 
+}
+
+img {
+    width: 100%;
+    max-width: 250px;
+}
