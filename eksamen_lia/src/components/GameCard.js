@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import GamePage from "./GamePage";
 
 export default function GameCard({img, title, genre, slug}) {
     
@@ -7,12 +6,12 @@ export default function GameCard({img, title, genre, slug}) {
         <article id="gamecard">
             <img src={img}/>
             <h3>{title}</h3>
-            {genre.map((genres, index) => (
+            {genre.slice(0,1).map((genres, index) => (
                 <p key={index}>{genres.name}</p>
             ))}
 
             <Link to={slug} >Les mer</Link>
-           
+           <button onClick={() => (window.location.href = `https://rawg.io/games/${slug}`)}>Buy</button>
         </article>
     )
 }
