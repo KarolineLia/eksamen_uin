@@ -12,14 +12,14 @@ export default function Dashboard({newgames, genre}) {
             </Link>
             <section className="gameshopSection">
             {newgames?.slice(0,3).map((games, index) => (
-                <GameCard key={index} img={games?.short_screenshots} title={games?.name} genre={games?.genres} slug={games?.slug}/>
+                <GameCard key={index} img={games?.background_image} title={games?.name} genre={games?.genres} slug={games?.slug}/>
             ))}               
             </section>
         </div>
         <section>
             <h2>MY GAMES - LIBRARY</h2>
             {genre?.slice(0,4).map((games, index) => (
-                <GameCard key={index} img={games?.short_screenshots} title={games?.name} genre={games?.genres} slug={games?.slug} />
+                <GameCard key={index} img={games?.background_image} title={games?.name} genre={games?.genres} slug={games?.slug} />
             ))}
             <Link to="/mygames">
                 <button type="button">Go to library</button>

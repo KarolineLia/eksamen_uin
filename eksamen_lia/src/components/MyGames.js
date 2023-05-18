@@ -5,7 +5,7 @@ export default function MyGames({genre}) {
         <div id="mygames">
             <section>
             {genre?.map((games, index) => (
-                <GameCard key={index} img={games?.short_screenshots} title={games?.name} genre={games?.genres} slug={games?.slug} />
+                <GameCard key={index} img={games?.background_image} title={games?.name} genre={games?.genres} slug={games?.slug} />
             ))}
             </section>
         </div>
