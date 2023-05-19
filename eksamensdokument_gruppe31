@@ -24,6 +24,9 @@ jeg å fjerne koden jeg skrev med linkene (starten i hvertfall), slik at koden i
 veldig likt som ved newgames og genre arrayene. Forskjellen var at jeg la på /{game_pk}/store istedenfor genre og release date. 
 For {game_pk} kunne jeg bruke både id og slug for å få frem en array med hvilken butikk det var, samt url.
 
+Rakk heller ikke å få implementert en knapp for å kunne lagre favoritter i en state og bruke den. Så jeg bare lagde favourites
+på link linje som mygames og gameshop.
+
 Hele denne eksamen er litt patchwork fra min side, noe som er veldig kjedelig siden det er en morsom oppgave og jeg vet jeg kan
 mye bedre enn jeg presterer her. Det er derimot bare sånn det må bli da tiden løp fra meg pga andre eksamener.
 
