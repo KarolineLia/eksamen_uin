@@ -68,6 +68,13 @@ main .mygamesSection {
   justify-content: space-around;
   float: left;
   max-width: 700px;
+  padding-bottom: 3rem;
+}
+main .mygamesSection article button {
+  display: none;
+}
+main .mygamesSection article a {
+  display: none;
 }
 main article {
   font-family: "Mulish", sans-serif;
@@ -93,11 +100,37 @@ main article a {
   text-decoration: none;
   padding: 10px;
 }
+main #mygames .gameshopSection article button {
+  display: none;
+}
+main #mygames .gameshopSection article a {
+  display: none;
+}
+main #gameshopStore .gameshopSection article a {
+  display: none;
+}
 main #favourites {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   float: right;
+}
+main .gamePage {
+  padding: 2rem;
+}
+main .gamePage img {
+  max-width: 600px;
+  width: 100%;
+  float: left;
+  padding-right: 1.5rem;
+}
+main .gamePage p {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.3rem;
+}
+main .gamePage #metacritic {
+  background-color: #6ea100;
+  border-color: #6ea100;
 }
 
 footer {

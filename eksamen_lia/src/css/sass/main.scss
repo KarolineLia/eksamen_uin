@@ -94,6 +94,17 @@ main {
         justify-content: space-around;
         float: left;
         max-width: 700px;
+        padding-bottom: 3rem;
+
+        article {
+            button {
+                display: none;
+            }
+            a {
+                display: none;
+            }
+        }
+
     }
 
     article {
@@ -126,6 +137,29 @@ main {
         }
     }
 
+    #mygames {
+        .gameshopSection {
+            article {
+                button {
+                    display: none;
+                }
+                a{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #gameshopStore {
+        .gameshopSection {
+            article {
+                a{
+                    display: none;
+                }
+            }
+        }
+    }
+
     #favourites {
         display: flex;
         flex-direction: column;
@@ -133,7 +167,24 @@ main {
         float: right;
     }
 
+    .gamePage {
+        padding: 2rem;
+        img {
+            max-width: 600px;
+            width: 100%;
+            float: left;
+            padding-right: $gaps;
+        }
+        p {
+            font-family: $textfont;
+            font-size: 1.3rem;
+        }
+        #metacritic {
+            background-color: $green;
+            border-color: $green;
+        }
 
+    }
 }
 
 footer {
