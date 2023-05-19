@@ -3,8 +3,7 @@ import { useParams } from "react-router-dom"
 export default function GamePage({newgames, genre}) {
     const {slug} = useParams()
     const gameshop = newgames.find((rec) => rec?.slug === slug)
-
-    console.log(gameshop)
+    
     if(slug === gameshop.slug) {
         return(
             <div className="gamePage">

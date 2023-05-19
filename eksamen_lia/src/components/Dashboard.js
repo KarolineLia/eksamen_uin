@@ -3,8 +3,6 @@ import GameCard from "./GameCard";
 
 
 export default function Dashboard({newgames, genre, favourites}) {
-
-    console.log(favourites)
     return(
         <>
         <div id="gameshop">
