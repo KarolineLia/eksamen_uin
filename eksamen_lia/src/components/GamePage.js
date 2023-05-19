@@ -3,11 +3,11 @@ import { useParams } from "react-router-dom"
 export default function GamePage({newgames, genre}) {
     const {slug} = useParams()
     const gameshop = newgames.find((rec) => rec?.slug === slug)
-    
+
     if(slug === gameshop.slug) {
         return(
             <div className="gamePage">
-                <img src={gameshop.background_image}/>
+                <img src={gameshop.background_image} alt=""/>
                 <h1>{gameshop.name}</h1>
                 <p>Genre: {gameshop?.genres?.map(genre => genre.name).join(', ')}</p>
                 <p>Published: {gameshop.released}</p>
