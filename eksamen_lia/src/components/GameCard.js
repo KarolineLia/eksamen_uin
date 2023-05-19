@@ -4,7 +4,7 @@ export default function GameCard({img, title, genre, slug}) {
     
     return(
         <article id="gamecard">
-            <img src={img}/>
+            <img src={img} alt=""/>
             <h3>{title}</h3>
             {genre.slice(0,1).map((genres, index) => (
                 <p key={index}>{genres.name}</p>
