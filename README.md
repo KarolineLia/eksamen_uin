@@ -9,3 +9,6 @@ pga noen problemer under minstekravet og karakter D.
 Jeg er den eneste personen på denne gruppa og aliaset mitt er KarolineLia (Karoline Marie Lia).
 
 Hvis det skulle skje noe med api nøkkelen (ikke at det burde det) så er den 468792da558d44a6b2d4c9767b13cb25
+
+Lagde create react app som en annen mappe (eksamen_lia), så den må cd før npm install. Satser på at dere gjør det uten problem,
+men tenkte bare å nevne det
