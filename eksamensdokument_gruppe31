@@ -35,7 +35,7 @@ Jeg har kommentert alle kodebiter der jeg bruker kildene, slik at det er enklere
 
 https://www.youtube.com/watch?v=SLfhMt5OUPI - brukte jeg for dynamisk routing i navbaren
 https://www.youtube.com/watch?v=PGCMdiXRI6Y - for å slice info fra arrayene slik at det kun kom opp 3 og 4 spill.
-https://www.w3schools.com/js/js_window_location.asp - brukte jeg når jeg skulle linke til rawg sin games side og velge et spesifikt spill
+https://www.w3schools.com/js/js_window_location.asp - brukte jeg når jeg skulle linke til rawg sin games side og velge et spesifikt spill, samt med metacritic
 https://stackoverflow.com/questions/16679146/force-footer-on-bottom-on-pages-with-little-content - for oppsett av footer
 https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow - For box-shadow
 https://api.rawg.io/docs/ - For å hente ut nødvendig informasjon fra API'et
@@ -44,8 +44,11 @@ https://sass-lang.com/guide - For hvordan man skriver sass
 https://react.dev/learn/passing-props-to-a-component - Bare som en generell guide for deling av props
 https://pypi.org/project/rawg/ - For å bedre forstå meg på Rawg api'et
 https://codingbeautydev.com/blog/react-button-link/ - for dynamiske linker rundt button
+https://stackoverflow.com/questions/42463263/wrapping-a-react-router-link-in-an-html-button - så også på denne mtp knappene
 https://www.pluralsight.com/guides/how-to-use-the-map()-function-to-export-javascript-in-react - Som en oppfriskning av bruken av map (dette
 var mer for når jeg jobbet med linkene til butikken, men siden den delen er borte så er også kommentaren rundt kodebiten borte)
+https://www.metacritic.com/game/pc/{slug} - brukte jeg for å linke til metacritic siden til spillene
+https://rawg.io/games/{slug} - brukte jeg som link for å vise til hvor man kunne kjøpe spillene siden jeg ikke fikk til store links
 
 Jeg har også brukt arbeidskrav 3 og 4 for en del av oppsettet, spesielt 4 for bruken av API.
 Samtidig har jeg brukt https://github.com/ackarlse/gitcollab for useEffect og useState samt API kall.
