@@ -7,7 +7,7 @@ export default function GamePage({newgames, genre}) {
     if(slug === gameshop.slug) {
         return(
             <div className="gamePage">
-                <img src={gameshop.background_image} alt=""/>
+                <img src={gameshop.background_image} alt="Bilde av spill"/>
                 <h1>{gameshop.name}</h1>
                 <p>Genre: {gameshop?.genres?.map(genre => genre.name).join(', ')}</p>
                 <p>Published: {gameshop.released}</p>
