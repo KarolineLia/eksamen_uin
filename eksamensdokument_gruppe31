@@ -16,6 +16,10 @@ jeg å fjerne koden jeg skrev med linkene (starten i hvertfall), slik at koden i
 veldig likt som ved newgames og genre arrayene. Forskjellen var at jeg la på /{game_pk}/store istedenfor genre og release date. 
 For {game_pk} kunne jeg bruke både id og slug for å få frem en array med hvilken butikk det var, samt url.
 
+En anne utfordring var med de fleste av linkene/knappene. Buy knappen kommer opp på alt, som det ligger i Gameshop eller ikke. Det
+er sikkert ikke vanskelig å få endret på dette, men som med hele denne eksamen har jeg dessverre satt av for lite tid. Linken til
+GamePage fungerer også kun i gameShop og ikke på noen av de andre.
+
 Hele denne eksamen er litt patchwork fra min side, noe som er veldig kjedelig siden det er en morsom oppgave og jeg vet jeg kan
 mye bedre enn jeg presterer her. Det er derimot bare sånn det må bli da tiden løp fra meg pga andre eksamener.
 
