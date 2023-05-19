@@ -33,13 +33,26 @@ function App() {
     getGenre()
   },[])
 
+  {/*Siden jeg ikke rakk å få lagt til favoritter gjennom en knapp, bruker jeg bare useState slik som tidligere og bygger opp favourites som eks. My Games */}
+  const [favourites, setFavourites] = useState([])
+
+  const getFavourites = async() =>{
+    const response = await fetch(`https://api.rawg.io/api/games?key=468792da558d44a6b2d4c9767b13cb25`)
+    const data = await response.json()
+    setFavourites(data)
+  }
+  useEffect(() =>{
+    getFavourites()
+  },[])
+
+
   return (
     <Routes>
       <Route element={<Layout/>}>
-        <Route path="/" element={<Dashboard newgames={newgames.results} genre={genre.results}/>}/>
+        <Route path="/" element={<Dashboard newgames={newgames.results} genre={genre.results} favourites={favourites.results}/>}/>
         <Route path="/gameshop" element={<GameShop newgames={newgames.results}/>}/>
         <Route path="/mygames" element={<MyGames genre={genre.results}/>}/>
-        <Route path="/favourites" element={<MyFavourites/>}/>
+        <Route path="/favourites" element={<MyFavourites favourites={favourites.results}/>}/>
         <Route path="/:slug" element={<GamePage newgames={newgames.results} genre={genre.results}/>}/>
       </Route>
     </Routes>

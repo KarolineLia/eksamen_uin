@@ -54,6 +54,24 @@ main h2 {
   font-family: "Mulish", sans-serif;
   font-size: 1.5rem;
 }
+main aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+  border-left: 1px solid #232323;
+}
+main aside article button {
+  display: none;
+}
+main aside article a {
+  display: none;
+}
+main .mygamesLibrary {
+  float: left;
+  max-width: 70%;
+  padding-bottom: 3rem;
+}
 main .gameshopSection {
   display: flex;
   flex-wrap: wrap;
@@ -61,14 +79,12 @@ main .gameshopSection {
   background-color: #f3f3f3;
   padding: 0.5rem;
   border-bottom: 1px solid #232323;
+  margin-bottom: 1rem;
 }
 main .mygamesSection {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  float: left;
-  max-width: 700px;
-  padding-bottom: 3rem;
 }
 main .mygamesSection article button {
   display: none;
@@ -78,7 +94,7 @@ main .mygamesSection article a {
 }
 main article {
   font-family: "Mulish", sans-serif;
-  max-width: 300px;
+  max-width: 340px;
   width: 100%;
   margin-bottom: 1rem;
   padding: 0.5rem;
@@ -106,6 +122,12 @@ main #mygames .gameshopSection article button {
 main #mygames .gameshopSection article a {
   display: none;
 }
+main #myfavourites .gameshopSection article button {
+  display: none;
+}
+main #myfavourites .gameshopSection article a {
+  display: none;
+}
 main #gameshopStore .gameshopSection article a {
   display: none;
 }
@@ -114,6 +136,7 @@ main #favourites {
   flex-direction: column;
   align-items: flex-start;
   float: right;
+  max-width: 400px;
 }
 main .gamePage {
   padding: 2rem;

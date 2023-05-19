@@ -79,6 +79,30 @@ main {
         font-family: $textfont;
         font-size: 1.5rem;
     }
+
+    aside{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-bottom: 3rem;
+        border-left: 1px solid $dark-grey;
+        
+        article {
+            button{
+                display: none;
+            }
+            a{
+                display: none;
+            }
+        }
+    }
+
+    .mygamesLibrary {
+        float: left;
+        max-width: 70%;
+        padding-bottom: 3rem;
+    }
+
     .gameshopSection {
         display: flex;
         flex-wrap: wrap;
@@ -86,15 +110,13 @@ main {
         background-color: $light-grey;
         padding: 0.5rem;
         border-bottom: 1px solid $dark-grey;
+        margin-bottom: 1rem;
     }
 
     .mygamesSection {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        float: left;
-        max-width: 700px;
-        padding-bottom: 3rem;
 
         article {
             button {
@@ -109,7 +131,7 @@ main {
 
     article {
         font-family: $textfont;
-        max-width: 300px;
+        max-width: 340px;
         width: 100%;
         margin-bottom: 1rem;
         padding: 0.5rem;
@@ -150,6 +172,19 @@ main {
         }
     }
 
+    #myfavourites {
+        .gameshopSection {
+            article {
+                button {
+                    display: none;
+                }
+                a{
+                    display: none;
+                }
+            }
+        }
+    }
+
     #gameshopStore {
         .gameshopSection {
             article {
@@ -165,6 +200,8 @@ main {
         flex-direction: column;
         align-items: flex-start;
         float: right;
+        max-width: 400px;
+        
     }
 
     .gamePage {
