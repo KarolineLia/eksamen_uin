@@ -8,7 +8,7 @@ Uklarheter:
 Det er kun en ting i teksten som var litt uklar for meg. Det var om det var at ett spill fra hver av kategoriene (shop, mygames, favourites)
 skulle kunne bli trykket på eller om det var at det kun var ett spill. Forvirringen fra min side kommer fra at det under står ett enkelt spill,
 men så virker det som at det skal være et fra hver i teksten før. Jeg valgte bare å ta at alle spillene i gameShop kunne bli trykka på, hovedsakelig
-fordi det eneste inspo bildet vi fikk av gammePage var med en kjøpsknapp så det virket bare riktig. Når jeg skriver dette føler jeg at jeg kan har gjort
+fordi det eneste inspo bildet vi fikk av gamePage var med en kjøpsknapp så det virket bare riktig. Når jeg skriver dette føler jeg at jeg kan har gjort
 noe feil der, men sånn får det bare bli. Jeg oppfattet det som ett valgfritt spill når jeg leste det første gangen pga "for ett enkelt spill" som står
 under, men når jeg leser det på nytt nå så virker det mer som en forklaring på hvordan hvert enkelt spill kan ha routingen sin.
 
@@ -23,10 +23,6 @@ hvordan jeg skulle sende riktig proper til riktig komponenter for å kunne .map'
 jeg å fjerne koden jeg skrev med linkene (starten i hvertfall), slik at koden ikke skulle bli rotete. Oppsettet av det derimot var
 veldig likt som ved newgames og genre arrayene. Forskjellen var at jeg la på /{game_pk}/store istedenfor genre og release date. 
 For {game_pk} kunne jeg bruke både id og slug for å få frem en array med hvilken butikk det var, samt url.
-
-En anne utfordring var med de fleste av linkene/knappene. Buy knappen kommer opp på alt, som det ligger i Gameshop eller ikke. Det
-er sikkert ikke vanskelig å få endret på dette, men som med hele denne eksamen har jeg dessverre satt av for lite tid. Linken til
-GamePage fungerer også kun i gameShop og ikke på noen av de andre.
 
 Hele denne eksamen er litt patchwork fra min side, noe som er veldig kjedelig siden det er en morsom oppgave og jeg vet jeg kan
 mye bedre enn jeg presterer her. Det er derimot bare sånn det må bli da tiden løp fra meg pga andre eksamener.
