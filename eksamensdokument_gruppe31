@@ -4,6 +4,14 @@ Jeg gikk hovedsakelig for vanskelighetsgrad C fordi jeg foretrekker å jobbe med
 
 Github-alias KarolineLia = Karoline Marie Lia
 
+Uklarheter:
+Det er kun en ting i teksten som var litt uklar for meg. Det var om det var at ett spill fra hver av kategoriene (shop, mygames, favourites)
+skulle kunne bli trykket på eller om det var at det kun var ett spill. Forvirringen fra min side kommer fra at det under står ett enkelt spill,
+men så virker det som at det skal være et fra hver i teksten før. Jeg valgte bare å ta at alle spillene i gameShop kunne bli trykka på, hovedsakelig
+fordi det eneste inspo bildet vi fikk av gamePage var med en kjøpsknapp så det virket bare riktig. Når jeg skriver dette føler jeg at jeg kan har gjort
+noe feil der, men sånn får det bare bli. Jeg oppfattet det som ett valgfritt spill når jeg leste det første gangen pga "for ett enkelt spill" som står
+under, men når jeg leser det på nytt nå så virker det mer som en forklaring på hvordan hvert enkelt spill kan ha routingen sin.
+
 Utfordringer med oppgaven:
 Det er kun ett punkt jeg føler er litt uklart og det er hvordan man kobler opp linkene til buy knappen når man bruker api'et.
 Jeg har gått gjennom dokumentet og ser at man skal kunne lage en liste med linker til butikker som selger spillene. Jeg klarte å finne
